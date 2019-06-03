@@ -1,0 +1,64 @@
+const MenuList=[{
+    title:'首页',
+    path:'/home'
+  },
+  {
+   title:'用户管理',
+   path:'/home/user',
+   children:[
+     {
+       title:"vip",
+       path:"/home/user/vip"
+     }
+   ]
+ },{
+   title:'商品管理',
+   path:'/home/product',    
+ },
+ {
+  title:'柱状图',
+  path:'/home/bar',
+  children:[
+    {
+      title:'壮壮图1',
+      path:'/home/bar/bar1'
+    },
+    {
+      title:'壮壮图2',
+      path:'/home/bar/bar2'
+    }
+  ]
+},
+{
+  title:'饼状图',
+  path:'/home/pie',
+  children:[
+    {
+      title:'饼图1',
+      path:'/home/pie/pie1'
+    },
+    {
+      title:'饼图2',
+      path:'/home/pie/pie2'
+    },
+    {
+      title:'饼图2',
+      path:'/home/pie/pie3'
+    }
+  ]
+},
+{
+  title:'折线图',
+  path:'/home/line',
+  children:[
+    {
+      title:'折线图1',
+      path:'/home/line/line1'
+    },
+    {
+      title:'折线图2',
+      path:'/home/line/line2'
+    }
+  ]
+}]
+ export default MenuList;
